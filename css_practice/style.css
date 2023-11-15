@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;600&family=Noto+Sans+KR:wght@300;500&family=Open+Sans:wght@400;600&display=swap");
+html {
+  width: 320px;
+}
+
+body,
+button {
+  font-family: "Kanit", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 20px;
+  gap: 30px;
+  border: 4px solid turquoise;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.fa-xmark {
+  position: absolute;
+  left: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-width: 320px;
+}
+
+.main__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: #fed330;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.main__song {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.main__song__title {
+  margin: 2px 0;
+  line-height: 1.2;
+}
+
+.btn-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-area button {
+  height: 50px;
+  background-color: #fff;
+  border: 2px solid black;
+  border-bottom: 4px solid black;
+}
+
+.btn-area__btn-play {
+  width: 135px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.fa-play {
+  margin-right: 8px;
+}
+
+.btn-area__btn-circle {
+  width: 50px;
+  border-radius: 50%;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+
+.play-list__box {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+li:nth-child(1) .play-list__box {
+  background-color: tomato;
+}
+
+li:nth-child(2) .play-list__box {
+  background-color: hotpink;
+}
+
+li:nth-child(3) .play-list__box {
+  background-color: blue;
+}
+
+li:nth-child(4) .play-list__box {
+  background-color: turquoise;
+}
+
+.play-list__song {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.play-list__song__title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.play-list__song__singer {
+  font-size: 14px;
+  font-weight: 200;
+}
