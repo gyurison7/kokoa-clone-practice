@@ -1,0 +1,131 @@
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content h1 {
+  margin-bottom: 8px;
+}
+
+.header-content__genre {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.header-content img {
+  width: 370px;
+  border-radius: 15px;
+}
+
+.header-content__btn button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+}
+
+.header-content__shuffle {
+  margin-right: 10px;
+  background-color: black;
+  color: white;
+}
+
+.header-content__heart {
+  background-color: white;
+}
+
+.header-content__heart i {
+  margin-right: 5px;
+}
+
+.header-content__heart span {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.play-list {
+  margin-top: 35px;
+}
+
+.play-list__song {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.play {
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.play-list__song img {
+  width: 50px;
+  border-radius: 10px;
+}
+
+.fa-chart-simple {
+  position: absolute;
+  left: 33px;
+  color: #fff;
+}
+
+.play-list__song-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.play-list__singer {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+}
+
+.play-list__title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.play-list__song .fa-ellipsis-vertical {
+  position: absolute;
+  right: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.play-banner {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 370px;
+  height: 70px;
+  background-color: black;
+  color: white;
+  bottom: 35px;
+  border-radius: 30px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+}
+
+.play-banner__song-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.play-banner__singer {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.play-banner__title {
+  font-size: 18px;
+}
+
+.play-banner__icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
